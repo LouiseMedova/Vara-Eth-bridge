@@ -1,0 +1,18 @@
+[package]
+name = "bridge-vara"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bridge-vara-io.workspace = true
+# bridge-io.workspace = true
+gstd.workspace = true
+gmeta.workspace = true
+
+[dev-dependencies]
+gstd.workspace = true
+gtest.workspace = true
+
+[build-dependencies]
+bridge-vara-io.workspace = true
+gear-wasm-builder.workspace = true
